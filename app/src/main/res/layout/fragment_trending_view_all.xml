@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TrendingViewAll"
+    android:background="@drawable/main_gradient"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trending Title"
+        android:textColor="@color/white"
+        android:fontFamily="@font/gfs_didot"
+        android:textSize="30dp"
+        android:gravity="center_horizontal"
+        android:background="@drawable/light_gradient"
+        android:layout_margin="10dp"
+        android:id="@+id/trending_viewAll_title"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginVertical="7dp"
+        android:id="@+id/viewAll_recview"/>
+
+
+</LinearLayout>

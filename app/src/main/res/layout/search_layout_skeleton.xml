@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card1ofsearchsekeleton"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="#808080"
+                app:layout_constraintDimensionRatio="9:14"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/card2ofsearchsekeleton"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card2ofsearchsekeleton"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                app:cardBackgroundColor="#808080"
+                app:cardCornerRadius="5dp"
+                app:layout_constraintDimensionRatio="9:14"
+                app:layout_constraintLeft_toRightOf="@+id/card1ofsearchsekeleton"
+                app:layout_constraintRight_toLeftOf="@+id/card3ofsearchsekeleton"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card3ofsearchsekeleton"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginRight="2dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="#808080"
+                app:layout_constraintDimensionRatio="9:14"
+                app:layout_constraintLeft_toRightOf="@+id/card2ofsearchsekeleton"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card4ofsearchsekeleton"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="#808080"
+                app:layout_constraintDimensionRatio="9:14"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/card5ofsearchsekeleton"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card5ofsearchsekeleton"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                app:cardBackgroundColor="#808080"
+                app:cardCornerRadius="5dp"
+                app:layout_constraintDimensionRatio="9:14"
+                app:layout_constraintLeft_toRightOf="@+id/card4ofsearchsekeleton"
+                app:layout_constraintRight_toLeftOf="@+id/card6ofsearchsekeleton"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card6ofsearchsekeleton"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginRight="2dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="#808080"
+                app:layout_constraintDimensionRatio="9:14"
+                app:layout_constraintLeft_toRightOf="@+id/card5ofsearchsekeleton"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card7ofsearchsekeleton"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="#808080"
+                app:layout_constraintDimensionRatio="9:14"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/card8ofsearchsekeleton"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card8ofsearchsekeleton"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                app:cardBackgroundColor="#808080"
+                app:cardCornerRadius="5dp"
+                app:layout_constraintDimensionRatio="9:14"
+                app:layout_constraintLeft_toRightOf="@+id/card7ofsearchsekeleton"
+                app:layout_constraintRight_toLeftOf="@+id/card9ofsearchsekeleton"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card9ofsearchsekeleton"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginRight="2dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="#808080"
+                app:layout_constraintDimensionRatio="9:14"
+                app:layout_constraintLeft_toRightOf="@+id/card8ofsearchsekeleton"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card10ofsearchsekeleton"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="#808080"
+                app:layout_constraintDimensionRatio="9:14"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/card11ofsearchsekeleton"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card11ofsearchsekeleton"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                app:cardBackgroundColor="#808080"
+                app:cardCornerRadius="5dp"
+                app:layout_constraintDimensionRatio="9:14"
+                app:layout_constraintLeft_toRightOf="@+id/card10ofsearchsekeleton"
+                app:layout_constraintRight_toLeftOf="@+id/card12ofsearchsekeleton"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card12ofsearchsekeleton"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginRight="2dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="#808080"
+                app:layout_constraintDimensionRatio="9:14"
+                app:layout_constraintLeft_toRightOf="@+id/card11ofsearchsekeleton"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
