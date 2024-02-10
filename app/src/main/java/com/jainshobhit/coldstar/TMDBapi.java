@@ -18,7 +18,7 @@ public interface TMDBapi {
             "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkYjk4NzliMzUyNjk4YzRhM2MzMjhkODQzY2FiZjM4MSIsInN1YiI6IjY1NTdhMjY0MjI5MzFhMDEzOThkYzg0YyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.rbkbp-Y_v7sdnuTxWzwSQ8wxQcbapiCOhLDT38HFFYY",
             "accept: application/json"
     })
-    @GET("3/search/multi?query=spider&include_adult=false&language=en-US&page=1")
+    @GET("3/search/multi?include_adult=false&language=en-US&page=1")
     Call<SearchMultiDataNode> searchData(@Query("query") String name);
 
 
